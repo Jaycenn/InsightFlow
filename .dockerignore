@@ -1,0 +1,14 @@
+backend
+docs
+sample-data
+scripts
+node_modules
+frontend/node_modules
+frontend/dist
+.git
+.venv
+.cache
+.tmp
+.pnpm-store
+InsightFlow-Portfolio.zip
+.env

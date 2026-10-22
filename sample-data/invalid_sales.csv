@@ -1,0 +1,6 @@
+Transaction Number,Purchase Date,Item Name,Product Category,Qty,Selling Price,Unit Cost,Buyer
+CS-2025000,2025-05-14,Water Bottle,Accessories,1,14.00,5.00,Ethan Kim
+CS-2025000,2025-05-14,Shooting Sleeve,Apparel,1,22.00,9.00,Ethan Kim
+CS-2025001,2025-07-16,Water Bottle,Accessories,1,14.00,5.00,Isabella Garcia
+CS-2025001,2025-07-16,Training Cones,Training,1,18.00,7.00,Isabella Garcia
+CS-INVALID,not-a-date,Basketball,Equipment,-2,oops,-3,Jordan Lee

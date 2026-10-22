@@ -1,0 +1,3 @@
+# Contributing
+
+Create a local PostgreSQL database and follow the README setup. Use a descriptive branch name such as `feature/dataset-export` or `fix/import-validation`. Keep Python typed and formatted for Ruff; keep TypeScript strict, components focused, and UI controls accessible. Add behavior tests for business rules, ownership, and important error paths. Before proposing a pull request, run backend lint/tests and frontend lint, typecheck, tests, and build. A pull request should describe the user-facing change, technical approach, testing performed, and any migration or security impact. Suggested commit style: `feat: add category comparison` or `fix: reject invalid quantity`. This document is guidance only; no commit or remote action is part of this deliverable.

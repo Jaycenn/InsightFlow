@@ -1,0 +1,7 @@
+# Security
+
+Passwords are hashed using Argon2 (`pwdlib`); plaintext passwords are never stored. Login issues an HS256 JWT with an eight-hour expiry. `JWT_SECRET` must be a long random value supplied by the deployment environment. Protected routes validate the token and load the user. Business and dataset helpers verify ownership for every resource read or change; cross-account IDs return 404.
+
+Uploads accept only CSV/XLSX extensions, strip filename paths, limit bytes (`MAX_UPLOAD_MB`), parse before storage, and reject malformed/empty files. Import validation restricts mappings and data values. SQLAlchemy generates parameterized SQL. Pydantic validates request bodies. CORS origins are configured by `CORS_ORIGINS`. Application logs include IDs/counts, not tokens, passwords, or file contents. Browser errors use a stable JSON shape instead of database traces.
+
+The frontend stores the access token in `localStorage` and a display copy of the current user in `sessionStorage`. This is simple for the portfolio MVP, but a production release should consider HttpOnly cookie sessions, CSRF protection when cookies are introduced, refresh/revocation, rate limiting, email verification, content sniffing/malware scanning, and security headers. Uploaded bytes in PostgreSQL require appropriate backups and retention controls. There is no per-user encryption or audit trail. Do not deploy with placeholder secrets from `.env.example`.

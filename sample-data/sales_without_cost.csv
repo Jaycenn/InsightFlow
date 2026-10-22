@@ -1,0 +1,25 @@
+Transaction Number,Purchase Date,Item Name,Product Category,Qty,Selling Price,Buyer
+CS-2025000,2025-05-14,Water Bottle,Accessories,1,14.00,Ethan Kim
+CS-2025000,2025-05-14,Shooting Sleeve,Apparel,1,22.00,Ethan Kim
+CS-2025001,2025-07-16,Water Bottle,Accessories,1,14.00,Isabella Garcia
+CS-2025001,2025-07-16,Training Cones,Training,1,18.00,Isabella Garcia
+CS-2025002,2025-04-09,Water Bottle,Accessories,1,14.00,Ethan Kim
+CS-2025002,2025-04-09,Ball Pump,Equipment,2,16.00,Ethan Kim
+CS-2025003,2025-02-05,Basketball,Equipment,1,29.00,Isabella Garcia
+CS-2025003,2025-02-05,Compression Sleeves,Apparel,1,24.00,Isabella Garcia
+CS-2025004,2025-08-14,Ball Pump,Equipment,1,16.00,Isabella Garcia
+CS-2025004,2025-08-14,Basketball Shoes,Footwear,3,95.00,Isabella Garcia
+CS-2025005,2025-02-01,Water Bottle,Accessories,1,14.00,Amira Santos
+CS-2025005,2025-02-01,Ankle Support,Accessories,3,19.00,Amira Santos
+CS-2025006,2025-08-08,Agility Ladder,Training,2,32.00,Ava Morgan
+CS-2025006,2025-08-08,Compression Sleeves,Apparel,3,24.00,Ava Morgan
+CS-2025007,2025-08-24,Basketball,Equipment,1,29.00,Maya Brooks
+CS-2025007,2025-08-24,Ankle Support,Accessories,3,19.00,Maya Brooks
+CS-2025008,2025-01-14,Basketball,Equipment,1,29.00,Maya Brooks
+CS-2025008,2025-01-14,Training Jersey,Apparel,3,36.00,Maya Brooks
+CS-2025009,2025-07-18,Ankle Support,Accessories,1,19.00,Jordan Lee
+CS-2025009,2025-07-18,Basketball Shoes,Footwear,3,95.00,Jordan Lee
+CS-2025010,2025-02-24,Ball Pump,Equipment,1,16.00,Sofia Chen
+CS-2025010,2025-02-24,Shooting Sleeve,Apparel,1,22.00,Sofia Chen
+CS-2025011,2025-01-17,Basketball Shoes,Footwear,3,95.00,Liam Rivera
+CS-2025011,2025-01-17,Ball Pump,Equipment,3,16.00,Liam Rivera

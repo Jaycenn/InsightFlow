@@ -1,0 +1,7 @@
+packages:
+  - frontend
+storeDir: D:/CodexData/pnpm-store
+cacheDir: D:/CodexData/pnpm-cache
+stateDir: D:/CodexData/pnpm-state
+allowBuilds:
+  esbuild: true
